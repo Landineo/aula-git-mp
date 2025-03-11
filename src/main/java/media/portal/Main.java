@@ -8,7 +8,7 @@ public class Main {
         int retval = run.exec("identify -verbose /stornext/PRIMARIO/WORK/HIRES/FOTOS/5020450.JPG").waitFor();
 
         if(retval == 0){
-            System.out.println("finalizou corretamente");
+            System.out.println("finalizou");
         } else {
             System.out.println("retval = " + retval);
         }
